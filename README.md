@@ -40,7 +40,9 @@ Visualized model Complexity to get a good value of n_neighbors to avoid either o
 
 ### Challenges Encountered
 Encountered an error with the .map() method while converting churn into binary, resulting in all values being 'NaN'. Resolved by using the .replace() method instead.
+
 Faced a ValueError when using the .fit() method due to categorical variables needing encoding. Solved by encoding categorical variables before fitting the model.
+
 Encountered other minor errors such as spelling mistakes, which were quickly rectified.
 
 
